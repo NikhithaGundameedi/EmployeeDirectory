@@ -1,0 +1,34 @@
+.contactDiv{
+    display: flex;
+    gap:2rem;
+}
+.contactsContainer{
+    width:30%;
+    height: 22rem;
+    margin: 1rem;
+    padding:0.3rem;
+    overflow-y: scroll;
+    border: 1px solid #988f8f;
+
+}
+.contactDetails{
+    width:30%;
+    height: 22rem;
+    margin: 1rem;
+}
+.editButton{
+  cursor: pointer;
+}
+
+.deleteButton{
+    cursor: pointer;
+}
+.contact{
+    cursor: pointer;
+    border-bottom: 2px solid #e4e4e4;
+}
+.contact p{
+    pointer-events: none;
+}
+
+
