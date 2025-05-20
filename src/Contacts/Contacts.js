@@ -52,7 +52,7 @@ class Contacts extends React.Component {
       <div className="contactDiv">
         <div className="contactsContainer">
           {console.log(contact)}
-          {contact.map((contact, i) => (
+          {contact?.map((contact, i) => (
             <div key={i} className="contact" id={i} onClick={this.handleClick}>
               <p>{contact.name}</p>
               <p>{contact.email}</p>
